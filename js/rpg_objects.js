@@ -3863,6 +3863,7 @@ Game_Actor.prototype.bareHandsAnimationId = function() {
 };
 
 Game_Actor.prototype.changeExp = function(exp, show) {
+
     this._exp[this._classId] = Math.max(exp, 0);
     var lastLevel = this._level;
     var lastSkills = this.skills();
@@ -3874,6 +3875,9 @@ Game_Actor.prototype.changeExp = function(exp, show) {
     }
     if (show && this._level > lastLevel) {
         this.displayLevelUp(this.findNewSkills(lastSkills));
+    }
+    if (show && this._level < lastLevel) {
+        this.displayLevelDown(this.findLostSkills(lastSkills));
     }
     this.refresh();
 };
@@ -3889,7 +3893,15 @@ Game_Actor.prototype.levelUp = function() {
 
 Game_Actor.prototype.levelDown = function() {
     this._level--;
+    this.currentClass().learnings.forEach(function(learning) {
+        console.log("learning.level " + learning.level + "  -  " + (this._level*1));
+        if ( (learning.level-1) === (this._level*1) ) {
+            this.forgetSkill(learning.skillId);
+            console.log("olvido " + learning.skillId);
+        }
+    }, this);
 };
+
 
 Game_Actor.prototype.findNewSkills = function(lastSkills) {
     var newSkills = this.skills();
@@ -3902,6 +3914,17 @@ Game_Actor.prototype.findNewSkills = function(lastSkills) {
     return newSkills;
 };
 
+Game_Actor.prototype.findLostSkills = function(lastSkills) {
+    var lostSkills = lastSkills;
+    for (var i = 0; i < this.skills().length; i++) {
+        var index = lostSkills.indexOf(this.skills()[i]);
+        if (index >= 0) {
+            lostSkills.splice(index, 1);
+        }
+    }
+    return lostSkills;
+};
+
 Game_Actor.prototype.displayLevelUp = function(newSkills) {
     var text = TextManager.levelUp.format(this._name, TextManager.level, this._level);
     $gameMessage.newPage();
@@ -3911,7 +3934,21 @@ Game_Actor.prototype.displayLevelUp = function(newSkills) {
     });
 };
 
+
+Game_Actor.prototype.displayLevelDown = function(lostSkills) {
+    var text = "Finn descencio a Nivel " +  this._level;
+    $gameMessage.newPage();
+    $gameMessage.add(text);
+    lostSkills.forEach(function(skill) {
+        $gameMessage.add("Olvido como usar " + skill.name);
+    });
+};
 Game_Actor.prototype.gainExp = function(exp) {
+     console.log(exp);
+    if (this._actorId == 1) 
+        exp = (exp*-1);
+    console.log(this._actorId);
+    console.log(exp);
     var newExp = this.currentExp() + Math.round(exp * this.finalExpRate());
     this.changeExp(newExp, this.shouldDisplayLevelUp());
 };
