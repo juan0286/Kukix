@@ -1,6 +1,8 @@
 [
 null,
-{"id":1,"expanded":false,"name":"MAP001","order":1,"parentId":0,"scrollX":534,"scrollY":318.5},
-{"id":2,"expanded":false,"name":"MAP_cruce","order":2,"parentId":0,"scrollX":832,"scrollY":640},
-{"id":3,"expanded":false,"name":"MAP_conejosRufianes","order":3,"parentId":0,"scrollX":832,"scrollY":640}
+{"id":1,"expanded":false,"name":"MAP001_entrenamiento","order":1,"parentId":0,"scrollX":720,"scrollY":407.3333333333333},
+{"id":2,"expanded":false,"name":"MAP002_cruce","order":2,"parentId":0,"scrollX":720,"scrollY":407.3333333333333},
+{"id":3,"expanded":false,"name":"MAP003_conejosRufianes","order":3,"parentId":0,"scrollX":832,"scrollY":640},
+{"id":4,"expanded":false,"name":"MAP005_entradaBandidos","order":4,"parentId":0,"scrollX":709.3333333333334,"scrollY":1272.6666666666667},
+{"id":5,"expanded":false,"name":"MAP004_viejitoOvejas","order":5,"parentId":0,"scrollX":720,"scrollY":407.3333333333333}
 ]

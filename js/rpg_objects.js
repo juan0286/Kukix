@@ -3944,9 +3944,9 @@ Game_Actor.prototype.displayLevelDown = function(lostSkills) {
     });
 };
 Game_Actor.prototype.gainExp = function(exp) {
-     console.log(exp);
-    if (this._actorId == 1) 
-        exp = (exp*-1);
+    // console.log(exp);
+   // if (this._actorId == 1) 
+   //     exp = (exp*-1);
     console.log(this._actorId);
     console.log(exp);
     var newExp = this.currentExp() + Math.round(exp * this.finalExpRate());
@@ -3981,7 +3981,7 @@ Game_Actor.prototype.learnSkill = function(skillId) {
 
 Game_Actor.prototype.forgetSkill = function(skillId) {
     var index = this._skills.indexOf(skillId);
-    if (index >= 0) {
+    if (index >= -1) {
         this._skills.splice(index, 1);
     }
 };

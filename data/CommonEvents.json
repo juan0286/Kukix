@@ -1,7 +1,8 @@
 [
 null,
 {"id":1,"list":[{"code":212,"indent":0,"parameters":[-1,54,true]},{"code":0,"indent":0,"parameters":[]}],"name":"lvUP","switchId":1,"trigger":0},
-{"id":2,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
-{"id":3,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
-{"id":4,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
+{"id":2,"list":[{"code":111,"indent":0,"parameters":[0,9,0]},{"code":111,"indent":1,"parameters":[12,"$gameSystem.weather_type != 0"]},{"code":356,"indent":2,"parameters":["weather : 0 : 5 : Leaf_01A"]},{"code":0,"indent":2,"parameters":[]},{"code":412,"indent":1,"parameters":[]},{"code":0,"indent":1,"parameters":[]},{"code":411,"indent":0,"parameters":[]},{"code":0,"indent":1,"parameters":[]},{"code":412,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"name":"Spring","switchId":36,"trigger":2},
+{"id":3,"list":[{"code":111,"indent":0,"parameters":[0,9,0]},{"code":111,"indent":1,"parameters":[12,"$gameSystem.weather_type != 2"]},{"code":356,"indent":2,"parameters":["weather : 2 : 5 : Cloud_01A"]},{"code":0,"indent":2,"parameters":[]},{"code":412,"indent":1,"parameters":[]},{"code":0,"indent":1,"parameters":[]},{"code":412,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"name":"Summer","switchId":37,"trigger":2},
+{"id":4,"list":[{"code":111,"indent":0,"parameters":[0,9,0]},{"code":111,"indent":1,"parameters":[12,"$gameSystem.weather_type != 0"]},{"code":356,"indent":2,"parameters":["weather : 0 : 5 : Leaf_02B"]},{"code":0,"indent":2,"parameters":[]},{"code":412,"indent":1,"parameters":[]},{"code":0,"indent":1,"parameters":[]},{"code":412,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"name":"Fall","switchId":38,"trigger":2},
+{"id":5,"list":[{"code":111,"indent":0,"parameters":[0,9,0]},{"code":111,"indent":1,"parameters":[12,"$gameSystem.weather_type != 3"]},{"code":356,"indent":2,"parameters":["weather : 3 : 12 : Light_01A"]},{"code":0,"indent":2,"parameters":[]},{"code":412,"indent":1,"parameters":[]},{"code":0,"indent":1,"parameters":[]},{"code":412,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"name":"Winter","switchId":39,"trigger":2}
 ]

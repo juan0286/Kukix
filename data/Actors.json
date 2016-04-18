@@ -1,5 +1,12 @@
 [
 null,
-{"id":1,"battlerName":"Finn","characterIndex":0,"characterName":"Finn","classId":1,"equips":[1,1,2,3,0],"faceIndex":0,"faceName":"Finn","traits":[],"initialLevel":80,"maxLevel":99,"name":"Finn","nickname":"","note":"<level up event: 1>","profile":"Finn es el caballero magico màs poderoso"},
-{"id":2,"battlerName":"Actor1_5","characterIndex":1,"characterName":"Actor2","classId":1,"equips":[1,0,0,0,0],"faceIndex":0,"faceName":"Actor2","traits":[],"initialLevel":8,"maxLevel":99,"name":"Melchor","nickname":"","note":"","profile":"cualquiera"}
+{"id":1,"battlerName":"Finn","characterIndex":0,"characterName":"Finn","classId":5,"equips":[1,1,2,3,0],"faceIndex":0,"faceName":"Finn","traits":[],"initialLevel":1,"maxLevel":99,"name":"Finn","nickname":"","note":"<level up event: 1>","profile":"Finn es el caballero magico màs poderoso"},
+{"id":2,"battlerName":"melchor","characterIndex":0,"characterName":"Melchor","classId":5,"equips":[1,0,0,0,0],"faceIndex":0,"faceName":"Melchor","traits":[],"initialLevel":1,"maxLevel":99,"name":"Melchor","nickname":"","note":"","profile":""},
+{"id":3,"battlerName":"casper","characterIndex":0,"characterName":"caspoer","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"casper","traits":[],"initialLevel":1,"maxLevel":99,"name":"Casper","nickname":"","note":"","profile":""},
+{"id":4,"battlerName":"balthasar","characterIndex":0,"characterName":"balthasar","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"balthasar","traits":[],"initialLevel":1,"maxLevel":99,"name":"Blathasar","nickname":"","note":"","profile":""},
+{"id":5,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":6,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":7,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":8,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":9,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""}
 ]
