@@ -5,8 +5,8 @@ null,
 {"id":3,"expanded":false,"name":"MAP003_conejosRufianes","order":3,"parentId":0,"scrollX":720,"scrollY":407.3333333333333},
 {"id":4,"expanded":true,"name":"MAP005_entradaBandidos","order":4,"parentId":0,"scrollX":668,"scrollY":640.5},
 {"id":5,"expanded":false,"name":"MAP004_viejitoOvejas","order":9,"parentId":0,"scrollX":720,"scrollY":407.3333333333333},
-{"id":6,"expanded":false,"name":"MAP006_guaridaBandidos_1","order":5,"parentId":4,"scrollX":668,"scrollY":1142.5},
-{"id":7,"expanded":false,"name":"MAP007_guaridaBandidos_2","order":6,"parentId":4,"scrollX":668,"scrollY":1142.5},
+{"id":6,"expanded":false,"name":"MAP006_guaridaBandidos_1","order":5,"parentId":4,"scrollX":1064,"scrollY":611},
+{"id":7,"expanded":false,"name":"MAP007_guaridaBandidos_2","order":6,"parentId":4,"scrollX":1080,"scrollY":611},
 {"id":8,"expanded":false,"name":"MAP008_guaridaBandidos_3","order":7,"parentId":4,"scrollX":668,"scrollY":1142.5},
-{"id":9,"expanded":false,"name":"MAP009_guaridaBandidos_4","order":8,"parentId":4,"scrollX":668,"scrollY":1142.5}
+{"id":9,"expanded":false,"name":"MAP009_guaridaBandidos_4","order":8,"parentId":4,"scrollX":668,"scrollY":297.5}
 ]
